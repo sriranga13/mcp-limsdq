@@ -1,0 +1,4 @@
+sample_id,result,status
+S-101,5.40,PASS
+S-102,12.75,PASS
+S-103,3.21,FAIL
