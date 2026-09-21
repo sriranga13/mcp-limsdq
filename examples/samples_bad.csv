@@ -1,0 +1,7 @@
+sample_id,analyte,result,result_unit,status,run_date
+S-001,Glucose,5.4,mmol/L,PASS,2026-09-01
+S-002,Glucose,-3.2,mmol/L,PASS,2026-09-01
+S-003,Glucose,high,mmol/L,FAIL,2026-09-01
+,Glucose,6.1,mmol/L,PASS,2026-09-01
+S-005,Fructose,9.9,mmol/L,PASS,09/02/2026
+S-006,Glucose,7.9,mg/dL,MAYBE,2026-09-02
