@@ -1,0 +1,7 @@
+sample_id,analyte,result,result_unit,status,run_date
+S-001,Glucose,5.4,mmol/L,PASS,2026-09-01
+S-002,Glucose,<0.5,mmol/L,PASS,2026-09-01
+S-003,Glucose,ND,mmol/L,FAIL,2026-09-01
+S-004,Lactate,12.75,mmol/L,PASS,2026-09-02
+S-005,Lactate,BQL,mmol/L,PASS,2026-09-02
+S-006,Glucose,7.9,mmol/L,PASS,2026-09-02
