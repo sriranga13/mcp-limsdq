@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-limsdq"
+version = "0.1.0"
+description = "MCP server exposing lab/LIMS data-quality checks (validate, profile, schema inference, migration diff) to AI assistants"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sri Gorantla" }]
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.9,<2"]
+keywords = ["mcp", "lims", "laboratory", "data-quality", "model-context-protocol"]
+
+[project.urls]
+Homepage = "https://github.com/sriranga13/mcp-limsdq"
+
+[project.scripts]
+mcp-limsdq = "mcp_limsdq.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
